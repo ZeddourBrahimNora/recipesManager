@@ -39,9 +39,7 @@ npm install
 
    Cela lancera le serveur sur `http://localhost:5000`.
 
-#### Accéder au Frontend
 
-- Si vous utilisez uniquement HTML/CSS/JavaScript pour le frontend, ouvrez simplement le fichier `public/index.html` dans votre navigateur.
 
 ---
 
