@@ -1,7 +1,7 @@
 
-# Recipe Manager
+# Recipes Manager
 
-Recipe Manager est une application de gestion de recettes permettant aux utilisateurs de créer, visualiser, modifier, rechercher et supprimer des recettes.
+Recipes Manager est une application de gestion de recettes permettant aux utilisateurs de créer, visualiser, modifier, rechercher et supprimer des recettes.
 
 ## Prérequis
 
