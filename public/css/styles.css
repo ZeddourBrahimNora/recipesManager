@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Couleurs de base */
+:root {
+  --primary-color: #8bafcb;
+  --secondary-color: #f6efef;
+  --text-color: #333;
+  --hover-color: #739bb3;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color);
+  padding: 0.8rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+/* Boutons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-color);
+}
+
+.btn-info {
+  background-color: #4bb4de;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #389ec2;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+/* Form Styling */
+.form-control {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(139, 175, 203, 0.25);
+}
+
+/* Section Titles */
+h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Responsive Cards */
+@media (max-width: 767px) {
+  .card {
+      margin-bottom: 1rem;
+  }
+
+  .navbar {
+      padding: 0.5rem;
+  }
+}
